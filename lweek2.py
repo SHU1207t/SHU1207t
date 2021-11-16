@@ -10,6 +10,7 @@ index = np.argsort(e)[::-1]
 mat0 = np.array([data[:-1] for data in mat if data[-1] == 0 ])
 mat1 = np.array([data[:-1] for data in mat if data[-1] == 1 ])
 
+
 vx0 = np.dot(v[index[0]],mat0.T)
 vy0 = np.dot(v[index[1]],mat0.T)
 vx1 = np.dot(v[index[0]],mat1.T)
