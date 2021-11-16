@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 mat = np.loadtxt('heart.ldt', skiprows=1)
 que = np.array(mat[:, :-1])
 cmat = np.cov(que, rowvar=0, bias=0)
