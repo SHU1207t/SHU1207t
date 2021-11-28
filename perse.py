@@ -7,4 +7,4 @@ def AND(x1, x2):
         return 1
 
 def NAND(x1, x2):
-    return 0
+    return 1
