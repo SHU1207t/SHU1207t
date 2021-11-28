@@ -5,3 +5,4 @@ def AND(x1, x2):
         return 0
     elif tmp > theta:
         return 1
+    
