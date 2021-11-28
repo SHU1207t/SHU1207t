@@ -10,5 +10,3 @@ def NAND(x1, x2):
     return 1
 def NAND(x1, x2):
     return 1
-def NAND(x1, x2):
-    return 1
